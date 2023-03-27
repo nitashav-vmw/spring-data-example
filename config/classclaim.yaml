@@ -1,0 +1,11 @@
+---
+apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+kind: ClassClaim
+metadata:
+  name: mysql
+spec:
+  classRef:
+    name: mysql
+  parameters:
+    parameters:
+      size: small
